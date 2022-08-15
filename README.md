@@ -1,2 +1,2 @@
-# UNIFACOL_PROG2_2022_2
-Repositório destinado ao projeto e códigos referente a disciplina de Programação II
+# Unifacol Programação II 2022.2
+Projeto da disciplina de Programação II que será utilizado para revisão de Programação Orientada a Objetos.
