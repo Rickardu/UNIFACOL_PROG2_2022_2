@@ -9,6 +9,12 @@ public abstract class Pessoa extends EntidadeBasica {
 	private String cpf;
 	private Date dataNascimento;
 	private SexoEnum sexo;
+	
+	public Pessoa(String nome, String cpf) {
+		
+	}
+	
+	
 	public String getNome() {
 		return nome;
 	}

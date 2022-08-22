@@ -14,6 +14,10 @@ public class Funcionario extends Pessoa{
 	public int getMatricula() {
 		return matricula;
 	}
+	public Funcionario(String nome, String cpf) {
+		super(nome,cpf);
+	}
+	
 	public void setMatricula(int matricula) {
 		this.matricula = matricula;
 	}

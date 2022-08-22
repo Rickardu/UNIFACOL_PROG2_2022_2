@@ -4,13 +4,14 @@ import java.util.ArrayList;
 
 import entidades.Time;
 import interfaces.ITimeServico;
+import repositorios.BasicoRepositorio;
 import repositorios.TimeArrayListRepositorio;
 
 
 public class TimeServico implements ITimeServico{
 
 	public TimeArrayListRepositorio repositorioTime= new TimeArrayListRepositorio();
-	
+	public BasicoRepositorio<Time> repositorioTimeBasico= new BasicoRepositorio<Time>();
 	
 	@Override
 	public void cadastrar(Time time) {

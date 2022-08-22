@@ -6,9 +6,16 @@ import enums.CartoesEnum;
 import enums.PosicaoJogadorEnum;
 
 public class Atleta extends Funcionario{
+	
 	private PosicaoJogadorEnum posicao;
 	private boolean isTitular;
 	private ArrayList<CartoesEnum> cartoes=new ArrayList<>();
+	
+	public Atleta(String nome, String cpf) {
+		super(nome, cpf);
+		// TODO Auto-generated constructor stub
+	}
+	
 	public PosicaoJogadorEnum getPosicao() {
 		return posicao;
 	}
