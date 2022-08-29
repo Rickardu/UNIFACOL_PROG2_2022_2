@@ -10,9 +10,14 @@ import repositorios.TimeArrayListRepositorio;
 
 public class TimeServico implements ITimeServico{
 
-	public TimeArrayListRepositorio repositorioTime= new TimeArrayListRepositorio();
-	public BasicoRepositorio<Time> repositorioTimeBasico= new BasicoRepositorio<Time>();
+	private TimeArrayListRepositorio repositorioTime= null;
+ 
 	
+	public TimeServico(TimeArrayListRepositorio repositorioTime) {
+	 
+		this.repositorioTime =  repositorioTime;
+	}
+
 	@Override
 	public void cadastrar(Time time) {
 		
